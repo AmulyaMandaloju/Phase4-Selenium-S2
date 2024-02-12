@@ -1,4 +1,4 @@
-package utilities;
+package tests;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(utilities.MyListener.class)
+@Listeners(tests.MyListener.class)
 public class TestNGListeners<TakeScreenshot> {
 	static WebDriver driver;
 	String siteUrl="https://accounts.simplilearn.com/user/login";
